@@ -6,23 +6,25 @@ import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app.routing';
 
 import { AppComponent } from './app.component';
-import { LandingComponent } from './landing/landing.component';
-import { ProfileComponent } from './profile/profile.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 
 import { HomeModule } from './home/home.module';
+import { PictureComponent } from './picture/picture.component';
+import { WhoareweComponent } from './whoarewe/whoarewe.component';
+import { NgxImageGalleryModule } from 'ngx-image-gallery';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LandingComponent,
-    ProfileComponent,
     NavbarComponent,
-    FooterComponent
-  ],
+    FooterComponent,
+    PictureComponent,
+    WhoareweComponent
+],
   imports: [
+    NgxImageGalleryModule,
     BrowserModule,
     NgbModule.forRoot(),
     FormsModule,

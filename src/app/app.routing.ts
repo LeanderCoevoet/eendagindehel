@@ -4,13 +4,14 @@ import { BrowserModule  } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './home/home.component';
-import { ProfileComponent } from './profile/profile.component';
-import { LandingComponent } from './landing/landing.component';
+import { PictureComponent } from './picture/picture.component';
+import { WhoareweComponent } from './whoarewe/whoarewe.component';
+
 
 const routes: Routes =[
     { path: 'home',             component: HomeComponent },
-    { path: 'user-profile',     component: ProfileComponent },
-    { path: 'landing',          component: LandingComponent },
+    {path: 'pictures', component:PictureComponent},
+    {path: 'whoarewe', component:WhoareweComponent},
     { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 
