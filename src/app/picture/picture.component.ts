@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { NgxImageGalleryComponent, GALLERY_IMAGE, GALLERY_CONF } from "ngx-image-gallery";
-import { DEMO_GALLERY_CONF_INLINE, DEMO_GALLERY_IMAGE } from './galleryconf';
+import { DEMO_GALLERY_CONF_INLINE, DEMO_GALLERY_IMAGE, DEMO_GALLERY_CONF } from './galleryconf';
  
 
 @Component({
@@ -18,7 +18,7 @@ export class PictureComponent {
 
   // gallery configuration
   conf: GALLERY_CONF = DEMO_GALLERY_CONF_INLINE;
-
+  
   // gallery images
   images: GALLERY_IMAGE[] = DEMO_GALLERY_IMAGE;
 
