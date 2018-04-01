@@ -14,6 +14,7 @@ import { HomeModule } from './home/home.module';
 import { PictureComponent } from './picture/picture.component';
 import { WhoareweComponent } from './whoarewe/whoarewe.component';
 import { NgxImageGalleryModule } from 'ngx-image-gallery';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { NgxImageGalleryModule } from 'ngx-image-gallery';
     FormsModule,
     RouterModule,
     AppRoutingModule,
-    HomeModule
+    HomeModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

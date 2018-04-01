@@ -8,7 +8,7 @@ import { Config } from "ngx-countdown";
   encapsulation: ViewEncapsulation.None
 })
 export class CountdownComponent  {
-  PR2018 = new Date(2018, 3, 9,7,30);
+  PR2018 = new Date(2018, 3, 8,7,30);
  date:any = this.PR2018
 
   config: Config = {

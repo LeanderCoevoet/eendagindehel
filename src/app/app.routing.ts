@@ -10,18 +10,17 @@ import { WhoareweComponent } from './whoarewe/whoarewe.component';
 
 const routes: Routes =[
     { path: 'home',             component: HomeComponent },
-    {path: 'pictures', component:PictureComponent},
-    {path: 'whoarewe', component:WhoareweComponent},
-    { path: '', redirectTo: 'home', pathMatch: 'full' }
+    {path: 'pictures', component: PictureComponent},
+    {path: 'whoarewe', component: WhoareweComponent},
+    { path: '', redirectTo: 'home', pathMatch: 'full' },
 ];
 
 @NgModule({
   imports: [
-    CommonModule,
-    BrowserModule,
     RouterModule.forRoot(routes)
   ],
   exports: [
+    RouterModule
   ],
 })
 export class AppRoutingModule { }

@@ -153,12 +153,14 @@ var _a, _b, _c, _d, _e;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__whoarewe_whoarewe_component__ = __webpack_require__("./src/app/whoarewe/whoarewe.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_ngx_image_gallery__ = __webpack_require__("./node_modules/ngx-image-gallery/ngx-image-gallery.umd.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_ngx_image_gallery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12_ngx_image_gallery__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__angular_common__ = __webpack_require__("./node_modules/@angular/common/@angular/common.es5.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -193,7 +195,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_2__angular_forms__["FormsModule"],
             __WEBPACK_IMPORTED_MODULE_4__angular_router__["c" /* RouterModule */],
             __WEBPACK_IMPORTED_MODULE_5__app_routing__["a" /* AppRoutingModule */],
-            __WEBPACK_IMPORTED_MODULE_9__home_home_module__["a" /* HomeModule */]
+            __WEBPACK_IMPORTED_MODULE_9__home_home_module__["a" /* HomeModule */],
+            __WEBPACK_IMPORTED_MODULE_13__angular_common__["CommonModule"]
         ],
         providers: [],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* AppComponent */]]
@@ -210,12 +213,10 @@ AppModule = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppRoutingModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/@angular/core.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__("./node_modules/@angular/common/@angular/common.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__("./node_modules/@angular/platform-browser/@angular/platform-browser.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__("./node_modules/@angular/router/@angular/router.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__home_home_component__ = __webpack_require__("./src/app/home/home.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__picture_picture_component__ = __webpack_require__("./src/app/picture/picture.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__whoarewe_whoarewe_component__ = __webpack_require__("./src/app/whoarewe/whoarewe.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("./node_modules/@angular/router/@angular/router.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home_component__ = __webpack_require__("./src/app/home/home.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__picture_picture_component__ = __webpack_require__("./src/app/picture/picture.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__whoarewe_whoarewe_component__ = __webpack_require__("./src/app/whoarewe/whoarewe.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -227,13 +228,11 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-
-
 var routes = [
-    { path: 'home', component: __WEBPACK_IMPORTED_MODULE_4__home_home_component__["a" /* HomeComponent */] },
-    { path: 'pictures', component: __WEBPACK_IMPORTED_MODULE_5__picture_picture_component__["a" /* PictureComponent */] },
-    { path: 'whoarewe', component: __WEBPACK_IMPORTED_MODULE_6__whoarewe_whoarewe_component__["a" /* WhoareweComponent */] },
-    { path: '', redirectTo: 'home', pathMatch: 'full' }
+    { path: 'home', component: __WEBPACK_IMPORTED_MODULE_2__home_home_component__["a" /* HomeComponent */] },
+    { path: 'pictures', component: __WEBPACK_IMPORTED_MODULE_3__picture_picture_component__["a" /* PictureComponent */] },
+    { path: 'whoarewe', component: __WEBPACK_IMPORTED_MODULE_4__whoarewe_whoarewe_component__["a" /* WhoareweComponent */] },
+    { path: '', redirectTo: 'home', pathMatch: 'full' },
 ];
 var AppRoutingModule = (function () {
     function AppRoutingModule() {
@@ -243,11 +242,11 @@ var AppRoutingModule = (function () {
 AppRoutingModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1__angular_common__["CommonModule"],
-            __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["a" /* BrowserModule */],
-            __WEBPACK_IMPORTED_MODULE_3__angular_router__["c" /* RouterModule */].forRoot(routes)
+            __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* RouterModule */].forRoot(routes)
         ],
-        exports: [],
+        exports: [
+            __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* RouterModule */]
+        ],
     })
 ], AppRoutingModule);
 
@@ -523,7 +522,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 var CountdownComponent = (function () {
     function CountdownComponent() {
-        this.PR2018 = new Date(2018, 3, 9, 7, 30);
+        this.PR2018 = new Date(2018, 3, 8, 7, 30);
         this.date = this.PR2018;
         this.config = {
             stopTime: this.date,
@@ -1073,7 +1072,7 @@ FooterComponent = __decorate([
 /***/ "./src/app/shared/navbar/navbar.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-expand-lg fixed-top navbar-transparent\" color-on-scroll=\"500\">\n    <div class=\"container\">\n        <div class=\"navbar-translate\">\n            <a class=\"navbar-brand\" href=\"https://www.creative-tim.com\">Een dag in de hel</a>\n            <button class=\"navbar-toggler navbar-burger\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarToggler\" aria-controls=\"navbarTogglerDemo02\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" (click)=\"sidebarToggle()\">\n                <span class=\"navbar-toggler-bar\"></span>\n                <span class=\"navbar-toggler-bar\"></span>\n                <span class=\"navbar-toggler-bar\"></span>\n            </button>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarToggler\">\n            <ul class=\"navbar-nav ml-auto\">\n                <li class=\"nav-item\" *ngIf=\"!isDocumentation()\">\n                    <a class=\"nav-link\" rel=\"tooltip\" title=\"Ga naar de home pagina\"\n                     data-placement=\"bottom\" routerLink=\"/home\"  routerLinkActive=\"active\">\n                        <i class=\"fa fa-bicycle\"></i>\n                        <p class=\"d-lg-none\">Home</p>\n                    </a>\n                </li>\n                <li class=\"nav-item\" *ngIf=\"!isDocumentation()\">\n                    <a class=\"nav-link\" rel=\"tooltip\" title=\"Bekijk onze foto's\" \n                    data-placement=\"bottom\" routerLink=\"/pictures\"  routerLinkActive=\"active\">\n                        <i class=\"fa fa-image\"></i>\n                        <p class=\"d-lg-none\">Foto's</p>\n                    </a>\n                </li>\n                <li class=\"nav-item\" *ngIf=\"!isDocumentation()\">\n                    <a class=\"nav-link\" rel=\"tooltip\" title=\"Bekijk wie wij zijn\"\n                     data-placement=\"bottom\" routerLink=\"/whoarewe\"  routerLinkActive=\"active\">\n                        <i class=\"fa fa-users \"></i>\n                        <p class=\"d-lg-none\">Wie zijn wij</p>\n                    </a>\n                </li>\n                <li class=\"nav-item\" *ngIf=\"!isDocumentation()\">\n                    <a href=\"http://pk2-angular.creative-tim.com/documentation/tutorial\" class=\"nav-link\" target=\"_blank\">\n                        <i class=\"nc-icon nc-book-bookmark\"></i> Documentation</a>\n                </li>\n                <li class=\"nav-item\" *ngIf=\"!isHome()\">\n                    <a [routerLink]=\"['/home']\" *ngIf=\"!isDocumentation()\" class=\"nav-link\"><i class=\"nc-icon nc-layout-11\"></i>Components</a>\n                    <a [routerLink]=\"['/home']\" *ngIf=\"isDocumentation()\" class=\"nav-link\">Back to Kit</a>\n                </li>\n            </ul>\n        </div>\n    </div>\n</nav>\n"
+module.exports = "<nav class=\"navbar navbar-expand-lg fixed-top navbar-transparent\" color-on-scroll=\"500\">\n    <div class=\"container\">\n        <div class=\"navbar-translate\">\n            <a class=\"navbar-brand\" routerLink=\"/home\" >Een dag in de hel</a>\n            <button class=\"navbar-toggler navbar-burger\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarToggler\" aria-controls=\"navbarTogglerDemo02\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" (click)=\"sidebarToggle()\">\n                <span class=\"navbar-toggler-bar\"></span>\n                <span class=\"navbar-toggler-bar\"></span>\n                <span class=\"navbar-toggler-bar\"></span>\n            </button>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarToggler\">\n            <ul class=\"navbar-nav ml-auto\">\n                <li class=\"nav-item\" >\n                    <a class=\"nav-link\" rel=\"tooltip\" title=\"Ga naar de home pagina\"\n                     data-placement=\"bottom\" routerLink=\"/home\"  routerLinkActive=\"active\">\n                        <i class=\"fa fa-bicycle\"></i>\n                        <p class=\"d-lg-none\">Home</p>\n                    </a>\n                </li>\n                <li class=\"nav-item\" >\n                    <a class=\"nav-link\" rel=\"tooltip\" title=\"Bekijk onze foto's\" \n                    data-placement=\"bottom\" routerLink=\"/pictures\"  routerLinkActive=\"active\">\n                        <i class=\"fa fa-image\"></i>\n                        <p class=\"d-lg-none\">Foto's</p>\n                    </a>\n                </li>\n                <li class=\"nav-item\" >\n                    <a class=\"nav-link\" rel=\"tooltip\" title=\"Bekijk wie wij zijn\"\n                     data-placement=\"bottom\" routerLink=\"/whoarewe\"  routerLinkActive=\"active\">\n                        <i class=\"fa fa-users \"></i>\n                        <p class=\"d-lg-none\">Wie zijn wij</p>\n                    </a>\n                </li>\n            </ul>\n        </div>\n    </div>\n</nav>\n"
 
 /***/ }),
 
@@ -1143,6 +1142,15 @@ var NavbarComponent = (function () {
         }
     };
     ;
+    NavbarComponent.prototype.isPictures = function () {
+        var titlee = this.location.prepareExternalUrl(this.location.path());
+        if (titlee === '/pictures') {
+            return true;
+        }
+        else {
+            return false;
+        }
+    };
     NavbarComponent.prototype.isHome = function () {
         var titlee = this.location.prepareExternalUrl(this.location.path());
         if (titlee === '/home') {
@@ -1232,13 +1240,8 @@ WhoareweComponent = __decorate([
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
-// The file contents for the current environment will overwrite these during build.
-// The build system defaults to the dev environment which uses `environment.ts`, but if you do
-// `ng build --env=prod` then `environment.prod.ts` will be used instead.
-// The list of which env maps to which file can be found in `.angular-cli.json`.
-// The file contents for the current environment will overwrite these during build.
 var environment = {
-    production: false
+    production: true
 };
 //# sourceMappingURL=environment.js.map
 
