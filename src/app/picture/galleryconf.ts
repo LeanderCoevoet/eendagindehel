@@ -25,220 +25,259 @@ export const DEMO_GALLERY_CONF: GALLERY_CONF = {
 // gallery images
 export const DEMO_GALLERY_IMAGE: GALLERY_IMAGE[] = [
   {
-    url: "../../assets/img/pictures/2017/real/1-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/1-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0001.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0001_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/2-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/2-min.JPG"
-  }, {
-    url: "../../assets/img/pictures/2017/real/3-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/3-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0002.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0002_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/4-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/4-min.JPG"
-  }, {
-    url: "../../assets/img/pictures/2017/real/5-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/6-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0003.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0003_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/7-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/7-min.JPG"
-  }, {
-    url: "../../assets/img/pictures/2017/real/8-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/8-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0004.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0004_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/9-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/9-min.JPG"
-  }, {
-    url: "../../assets/img/pictures/2017/real/10-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/10-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0005.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0005_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/12-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/12-min.JPG"
-  }, {
-    url: "../../assets/img/pictures/2017/real/13-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/13-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0006.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0006_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/14-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/14-min.JPG"
-  }, {
-    url: "../../assets/img/pictures/2017/real/15-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/15-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0007.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0007_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/16-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/16-min.JPG"
-  }, {
-    url: "../../assets/img/pictures/2017/real/17-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/17-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0008.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0008_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/18-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/18-min.JPG"
-  }, {
-    url: "../../assets/img/pictures/2017/real/19-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/19-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0009.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0009_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/20-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/20-min.JPG"
-  }, {
-    url: "../../assets/img/pictures/2017/real/21-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/21-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0011.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0011_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/22-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/22-min.JPG"
-  }, {
-    url: "../../assets/img/pictures/2017/real/23-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/23-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0012.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0012_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/24-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/24-min.JPG"
-  }, {
-    url: "../../assets/img/pictures/2017/real/25-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/25-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0013.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0013_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/26-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/26-min.JPG"
-  }, {
-    url: "../../assets/img/pictures/2017/real/27-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/27-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0014.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0014_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/28-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/28-min.JPG"
-  }, {
-    url: "../../assets/img/pictures/2017/real/29-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/29-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0015.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0015_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/30-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/30-min.JPG"
-  }, {
-    url: "../../assets/img/pictures/2017/real/31-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/31-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0016.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0016_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/32-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/32-min.JPG"
-  }, {
-    url: "../../assets/img/pictures/2017/real/33-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/33-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0017.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0017_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/34-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/34-min.JPG"
-  }, {
-    url: "../../assets/img/pictures/2017/real/35-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/35-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0018.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0018_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/36-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/36-min.JPG"
-  }, {
-    url: "../../assets/img/pictures/2017/real/37-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/37-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0019.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0019_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/38-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/38-min.JPG"
-  }, {
-    url: "../../assets/img/pictures/2017/real/39-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/39-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0020.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0020_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/40-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/40-min.JPG"
-  }, {
-    url: "../../assets/img/pictures/2017/real/41-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/41-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0021.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0021_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/42-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/42-min.JPG"
-  }, {
-    url: "../../assets/img/pictures/2017/real/43-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/43-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0022.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0022_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/44-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/44-min.JPG"
-  },  {
-    url: "../../assets/img/pictures/2017/real/45-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/45-min.JPG"
-  }, {
-    url: "../../assets/img/pictures/2017/real/46-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/46-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0023.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0023_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/47-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/47-min.JPG"
-  }, {
-    url: "../../assets/img/pictures/2017/real/48-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/48-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0024.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0024_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/49-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/49-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0025.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0025_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/50-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/50-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0026.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0026_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/50-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/50-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0027.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0027_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/51-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/51-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0028.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0028_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/52-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/52-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0029.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0029_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/53-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/53-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0030.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0030_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/54-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/54-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0031.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0031_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/55-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/55-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0032.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0032_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/56-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/56-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0033.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0033_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/57-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/57-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0034.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0034_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/58-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/58-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0035.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0035_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/59-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/59-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0036.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0036_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/60-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/60-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0037.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0037_tn.jpg"
   },
   {
-    url: "../../assets/img/pictures/2017/real/61-min.JPG",
-    thumbnailUrl: "../../assets/img/pictures/2017/thumb/61-min.JPG"
+    url: "../../assets/img/pictures/2018/web_def/0038.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0038_tn.jpg"
   },
+  {
+    url: "../../assets/img/pictures/2018/web_def/0039.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0039_tn.jpg"
+  },
+  {
+    url: "../../assets/img/pictures/2018/web_def/0040.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0040_tn.jpg"
+  },
+  {
+    url: "../../assets/img/pictures/2018/web_def/0041.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0041_tn.jpg"
+  },
+  {
+    url: "../../assets/img/pictures/2018/web_def/0042.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0042_tn.jpg"
+  },
+  {
+    url: "../../assets/img/pictures/2018/web_def/0043.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0043_tn.jpg"
+  },
+  {
+    url: "../../assets/img/pictures/2018/web_def/0044.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0044_tn.jpg"
+  },
+  {
+    url: "../../assets/img/pictures/2018/web_def/0045.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0045_tn.jpg"
+  },
+  {
+    url: "../../assets/img/pictures/2018/web_def/0046.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0046_tn.jpg"
+  },
+  {
+    url: "../../assets/img/pictures/2018/web_def/0047.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0047_tn.jpg"
+  },
+  {
+    url: "../../assets/img/pictures/2018/web_def/0048.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0048_tn.jpg"
+  },
+  {
+    url: "../../assets/img/pictures/2018/web_def/0049.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0049_tn.jpg"
+  },
+  {
+    url: "../../assets/img/pictures/2018/web_def/0050.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0050_tn.jpg"
+  },
+  {
+    url: "../../assets/img/pictures/2018/web_def/0051.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0051_tn.jpg"
+  },
+  {
+    url: "../../assets/img/pictures/2018/web_def/0052.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0052_tn.jpg"
+  },
+  {
+    url: "../../assets/img/pictures/2018/web_def/0053.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0053_tn.jpg"
+  },
+  {
+    url: "../../assets/img/pictures/2018/web_def/0054.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0054_tn.jpg"
+  },
+  {
+    url: "../../assets/img/pictures/2018/web_def/0055.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0055_tn.jpg"
+  },
+  {
+    url: "../../assets/img/pictures/2018/web_def/0056.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0056_tn.jpg"
+  },
+  {
+    url: "../../assets/img/pictures/2018/web_def/0057.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0057_tn.jpg"
+  },
+  {
+    url: "../../assets/img/pictures/2018/web_def/0058.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0058_tn.jpg"
+  },
+  {
+    url: "../../assets/img/pictures/2018/web_def/0059.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0059_tn.jpg"
+  },
+  {
+    url: "../../assets/img/pictures/2018/web_def/0060.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0060_tn.jpg"
+  },
+  {
+    url: "../../assets/img/pictures/2018/web_def/0061.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0061_tn.jpg"
+  },
+  {
+    url: "../../assets/img/pictures/2018/web_def/0062.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0062_tn.jpg"
+  },
+  {
+    url: "../../assets/img/pictures/2018/web_def/0063.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0063_tn.jpg"
+  },
+  {
+    url: "../../assets/img/pictures/2018/web_def/0064.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0064_tn.jpg"
+  },
+  {
+    url: "../../assets/img/pictures/2018/web_def/0065.jpg",
+    thumbnailUrl: "../../assets/img/pictures/2018/thumbnails/0065_tn.jpg"
+  }
 ];
