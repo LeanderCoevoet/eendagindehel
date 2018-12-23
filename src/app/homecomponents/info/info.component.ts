@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./info.component.css']
 })
 export class InfoComponent implements OnInit {
-  PR2018 = new Date(2018, 3, 8);
+  PR2019 = new Date(2019, 3, 14);
 
   constructor() { }
 
