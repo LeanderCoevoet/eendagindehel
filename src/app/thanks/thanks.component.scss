@@ -1,0 +1,26 @@
+p{
+    position: absolute;
+   top: 200%;
+    bottom: 20%;
+  left: 20%;
+    right: 20%;
+    font-weight: bold;
+    font-size: 4vw;
+    /* de rest is optionele opmaak */
+ 
+    color: hsl(0, 0%, 20%);
+ 
+    padding: 1vw;
+    transform: rotate(4deg);
+}
+
+.header {
+    background-color: #B2AFAB;
+    background-position: center center;
+    background-size: cover;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+  }

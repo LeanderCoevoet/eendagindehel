@@ -1,0 +1,67 @@
+<div class="wrapper">
+    <div class="header section-dark">
+
+    </div>
+    <div class="main">
+
+
+        <form id="inschrijving" method="post" action="https://formspree.io/rony.coevoet@scarlet.be" (submit)="onSubmit();">
+
+            <p>
+                <label for="aantal">Aantal personen:</label>
+                <select id="aantal">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+
+            </p>
+
+            <div id="aanvullen">
+                <fieldset id="invul">
+                    <legend>Persoon X:</legend>
+                    <p>
+                        <label for="naam">Naam:</label>
+                        <input type="text" id="voornaam" name="voornaam" placeholder="Voornaam" required />
+                        <input type="text" id="naam" name="naam" placeholder="Achternaam" required />
+                        <span class="fout" id="naamFout">&nbsp;</span>
+                    </p>
+
+                    <p>
+                        <label for="geboortedatum">Geboortedatum: &nbsp;</label>
+                        <input class="input" type="date" id="geboortedatum" name="geboortedatum" required />
+                        <span class="fout" id="geboortedatumFout">&nbsp;</span>
+                    </p>
+
+                    <p>
+                        <label for="email">E-mail:</label>
+                        <input class="input" type="text" id="email" name="mail" required size="45" placeholder="Uw email adres" />
+                        <span class="fout" id="emailFout">&nbsp;</span>
+                    </p>
+
+                    <p>
+                        <label for="gsm">Gsm: &nbsp;</label>
+                        <input class="input" type="text" id="gsm" name="gsm" required size="14" placeholder="xxxx xx xx xx" />
+                        <span class="fout" id="gsmFout">&nbsp;</span>
+                    </p>
+
+                    <p>
+                        <label for="straat">Adres:</label>
+                        <input class="input" type="text" id="straat" name="adres" required size="36" placeholder="straat" />
+                        <input class="input" type="text" id="nummer" name="nummer" required size="4" placeholder="nr" />
+                        <span class="fout" id="adres1Fout">&nbsp;</span>
+                    </p>
+                    <p>
+                        <input class="input" type="text" id="postcode" name="postcode" required size="4" placeholder="postcode" />
+                        <input class="input" type="text" id="stad" name="stad" required size="36" placeholder="stad" />
+                        <span class="fout" id="adres2Fout">&nbsp;</span>
+                    </p>
+                </fieldset>
+            </div>
+
+            <input type="submit" id="verzend" name="submit" value="Verzenden" />
+            <input type="hidden" name="_next" value="http://eendagindehel.be/#/thanks" />
+            <input type="hidden" name="_subject" value="Parijs-Roubaix inschrijving" />
+        </form>
+    </div>

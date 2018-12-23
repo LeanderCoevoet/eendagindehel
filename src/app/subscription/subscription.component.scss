@@ -1,0 +1,22 @@
+.header {
+  background-color: #B2AFAB;
+  background-position: center center;
+  background-size: cover;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+#inschrijving{
+  padding-top: 100px;
+  margin-left: 5%;
+}
+
+#postcode{
+  margin-left: 50px;
+}
+.fout{
+  color: #FF6600;
+}

@@ -15,6 +15,9 @@ import { PictureComponent } from './picture/picture.component';
 import { WhoareweComponent } from './whoarewe/whoarewe.component';
 import { NgxImageGalleryModule } from 'ngx-image-gallery';
 import { CommonModule } from '@angular/common';
+import { SubscriptionComponent } from './subscription/subscription.component';
+import { ThanksComponent } from './thanks/thanks.component';
+
 
 @NgModule({
   declarations: [
@@ -22,8 +25,10 @@ import { CommonModule } from '@angular/common';
     NavbarComponent,
     FooterComponent,
     PictureComponent,
-    WhoareweComponent
-],
+    WhoareweComponent,
+    SubscriptionComponent,
+    ThanksComponent
+  ],
   imports: [
     NgxImageGalleryModule,
     BrowserModule,
