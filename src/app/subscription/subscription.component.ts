@@ -27,10 +27,8 @@ export class SubscriptionComponent implements OnInit {
     }
 
     validateAantal() {
-        console.log('Validate aantal', this._counter)
         const inhoud = (<HTMLInputElement>document.getElementById('aantal')).value;
 
-        console.log('Validate inhoud ', inhoud)
         while (this._counter !== +inhoud) {
 
 
