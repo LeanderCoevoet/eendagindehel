@@ -1,6 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
-import { NgxImageGalleryComponent, GALLERY_IMAGE, GALLERY_CONF } from "ngx-image-gallery";
-import { DEMO_GALLERY_CONF_INLINE, DEMO_GALLERY_IMAGE, DEMO_GALLERY_CONF } from './galleryconf';
+import { Component, ViewChild } from '@angular/core';
  
 
 @Component({
@@ -12,15 +10,15 @@ export class PictureComponent {
 
   public showConf: boolean = true;
 
-  @ViewChild('ngxImageGallery') ngxImageGallery: NgxImageGalleryComponent;
+  //@ViewChild('ngxImageGallery') ngxImageGallery: NgxImageGalleryComponent;
 
   title = 'Demo App';
 
   // gallery configuration
-  conf: GALLERY_CONF = DEMO_GALLERY_CONF_INLINE;
+  //conf: GALLERY_CONF = DEMO_GALLERY_CONF_INLINE;
   
   // gallery images
-  images: GALLERY_IMAGE[] = DEMO_GALLERY_IMAGE;
+  //images: GALLERY_IMAGE[] = DEMO_GALLERY_IMAGE;
 
   // METHODS
   // open gallery
@@ -41,12 +39,12 @@ export class PictureComponent {
 
   // next image in gallery
   nextImage() {
-    this.ngxImageGallery.next();
+    //this.ngxImageGallery.next();
   }
 
   // prev image in gallery
   prevImage() {
-    this.ngxImageGallery.prev();
+    //this.ngxImageGallery.prev();
   }
 
   /**************************************************/

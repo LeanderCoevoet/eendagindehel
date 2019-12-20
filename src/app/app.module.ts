@@ -12,7 +12,6 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { HomeModule } from './home/home.module';
 import { PictureComponent } from './picture/picture.component';
 import { WhoareweComponent } from './whoarewe/whoarewe.component';
-import { NgxImageGalleryModule } from 'ngx-image-gallery';
 import { CommonModule } from '@angular/common';
 import { SubscriptionComponent } from './subscription/subscription.component';
 import { ThanksComponent } from './thanks/thanks.component';
@@ -29,7 +28,6 @@ import { ThanksComponent } from './thanks/thanks.component';
     ThanksComponent
   ],
   imports: [
-    NgxImageGalleryModule,
     BrowserModule,
     NgbModule.forRoot(),
     FormsModule,

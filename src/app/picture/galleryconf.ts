@@ -1,5 +1,5 @@
 // gallery configuration
-import {GALLERY_CONF, GALLERY_IMAGE} from 'ngx-image-gallery';
+/*import {GALLERY_CONF, GALLERY_IMAGE} from 'ngx-image-gallery';
 
 export const DEMO_GALLERY_CONF_INLINE: GALLERY_CONF = {
     imageOffset: '0px',
@@ -280,4 +280,4 @@ export const DEMO_GALLERY_IMAGE: GALLERY_IMAGE[] = [
         url: '../../assets/img/pictures/2018/web_def/0065.jpg',
         thumbnailUrl: '../../assets/img/pictures/2018/thumbnails/0065_tn.jpg'
     }
-];
+];*/
