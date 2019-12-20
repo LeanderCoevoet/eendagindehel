@@ -64,10 +64,10 @@ export class SubscriptionComponent implements OnInit {
 
         this.valideerAdres1();
         this.valideerAdres2();
-        this.valideerGsm();
+        //this.valideerGsm();
     }
 
-    valideerGsm() {
+/*    valideerGsm() {
         const gsm = (<HTMLInputElement>document.getElementById('gsm')).value;
         const feedback = document.getElementById('gsmFout');
         feedback.innerHTML = '';
@@ -80,7 +80,7 @@ export class SubscriptionComponent implements OnInit {
         return true;
     }
 
-
+*/
     validateNaam() {
         const inhoud = (<HTMLInputElement>document.getElementById('naam')).value;
         const voornaam = (<HTMLInputElement>document.getElementById('voornaam')).value;
@@ -116,12 +116,10 @@ export class SubscriptionComponent implements OnInit {
     }
 
 
-
-
-    isvalideerGsm(gsm) {
+/*    isvalideerGsm(gsm) {
         const patt = new RegExp('/^((\+|00)32\s?|0)4(60|[789]\d)(\s?\d{2}){3}$/');
         return patt.test(gsm);
-    }
+    }*/
 
 
     valideerAdres1() {
