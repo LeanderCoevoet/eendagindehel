@@ -29,7 +29,8 @@ import { ThanksComponent } from './thanks/thanks.component';
   ],
   imports: [
     BrowserModule,
-    NgbModule.forRoot(),
+    //NgbModule.forRoot(),
+    //@Injectable({providedIn: 'root'})
     FormsModule,
     RouterModule,
     AppRoutingModule,

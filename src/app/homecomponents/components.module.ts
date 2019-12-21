@@ -21,7 +21,7 @@ import { CountdownModule } from 'ngx-countdown';
         InfoComponent,
         ComponentsComponent,
         PartnersComponent,
-    CountdownComponent,   
+        CountdownComponent,   
 ],
     entryComponents: [],
     exports:[ ComponentsComponent ]

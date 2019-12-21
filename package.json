@@ -30,7 +30,8 @@
     "popper.js": "^1.12.3",
     "rxjs": "^6.5.3",
     "tslib": "^1.9.0",
-    "zone.js": "~0.10.2"
+    "zone.js": "~0.9.1",
+    "typescript": "~3.4.5"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.803.21",
@@ -51,6 +52,6 @@
     "protractor": "~5.4.2",
     "ts-node": "~8.5.4",
     "tslint": "~5.20.1",
-    "typescript": "~3.4.4"
+    "typescript": "~3.4.5"
   }
 }

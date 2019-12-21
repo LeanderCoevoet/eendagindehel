@@ -1,5 +1,5 @@
 import {Component, ViewEncapsulation} from '@angular/core';
-import {Config} from 'ngx-countdown';
+//import {Config} from 'ngx-countdown';
 
 @Component({
     selector: 'app-countdown',
@@ -8,7 +8,7 @@ import {Config} from 'ngx-countdown';
     encapsulation: ViewEncapsulation.None
 })
 export class CountdownComponent {
-    PR2018 = new Date(2019, 3, 14, 7, 30);
+   /* PR2018 = new Date(2020, 3, 11, 7, 30);
     date: any = this.PR2018
 
     config: Config = {
@@ -37,5 +37,5 @@ export class CountdownComponent {
                 }
             });
         },
-    }
+    }*/
 }
