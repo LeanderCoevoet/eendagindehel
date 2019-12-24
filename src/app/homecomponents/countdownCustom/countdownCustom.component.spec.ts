@@ -1,20 +1,20 @@
 /* tslint:disable:no-unused-variable */
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { CountdownComponent } from './countdown.component';
+import { countdownCustomComponent } from "./countdownCustom.component";
 
 describe('CountdownComponent', () => {
-  let component: CountdownComponent;
-  let fixture: ComponentFixture<CountdownComponent>;
+  let component: countdownCustomComponent;
+  let fixture: ComponentFixture<countdownCustomComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CountdownComponent ]
+      declarations: [ countdownCustomComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CountdownComponent);
+    fixture = TestBed.createComponent(countdownCustomComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

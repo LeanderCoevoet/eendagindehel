@@ -1,19 +1,19 @@
 import {Component, ViewEncapsulation} from '@angular/core';
-//import {Config} from 'ngx-countdown';
 
 @Component({
-    selector: 'app-countdown',
-    templateUrl: './countdown.component.html',
-    styleUrls: ['./countdown.component.scss'],
+    selector: 'app-countdownCustom',
+    templateUrl: './countdownCustom.component.html',
+    styleUrls: ['./countdownCustom.component.scss'],
     encapsulation: ViewEncapsulation.None
 })
-export class CountdownComponent {
-   /* PR2018 = new Date(2020, 3, 11, 7, 30);
+export class countdownCustomComponent {
+    
+    PR2018 = new Date(2020, 3, 11, 7, 30);
     date: any = this.PR2018
 
-    config: Config = {
+    /* config: CountdownConfig = {
         stopTime: this.date,
-        className: 'flip-cd',
+       className: 'flip-cd',
         repaint: function () {
             let me: any = this,
                 content: string;

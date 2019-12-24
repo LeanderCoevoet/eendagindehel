@@ -1,0 +1,27 @@
+@import "../../../assets/sass/paper-kit/variables";
+
+.countdown {
+   width: 100%;
+   height: 100px;
+   background: black;
+
+   .measurements {
+      color: white;
+      margin-right: 5px;
+      padding: 10px;
+   }
+
+   .divider {
+      font-size: 30px;
+   }
+}
+
+.row  {
+   justify-content: center;
+}
+
+@media screen and (min-width:767px){
+   .countdown  {
+      font-size: $font-size-small;
+   }
+}
