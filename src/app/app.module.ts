@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app.routing';
 
@@ -15,7 +14,12 @@ import { WhoareweComponent } from './whoarewe/whoarewe.component';
 import { CommonModule } from '@angular/common';
 import { SubscriptionComponent } from './subscription/subscription.component';
 import { ThanksComponent } from './thanks/thanks.component';
-
+import { AngularFireModule } from '@angular/fire';
+import { AngularFireDatabaseModule } from '@angular/fire/database';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { environment } from '../environments/environment';
+import { FirebaseService } from './services/firebase.service';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -29,15 +33,16 @@ import { ThanksComponent } from './thanks/thanks.component';
   ],
   imports: [
     BrowserModule,
-    //NgbModule.forRoot(),
-    //@Injectable({providedIn: 'root'})
-    FormsModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFireDatabaseModule,
+    ReactiveFormsModule,
     RouterModule,
     AppRoutingModule,
     HomeModule,
-    CommonModule
+    CommonModule,
+    BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [FirebaseService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
