@@ -1,0 +1,3 @@
+:host ::ng-deep div.timeline div.container div.inner div.head { 
+    background-color: white !important;
+}

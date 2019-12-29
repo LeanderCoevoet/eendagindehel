@@ -1,4 +1,4 @@
-import {Component, OnInit, Renderer} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {NgbDateStruct} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
@@ -17,7 +17,7 @@ export class ComponentsComponent implements OnInit {
     date: { year: number, month: number };
     model: NgbDateStruct;
 
-    constructor(private renderer: Renderer) {
+    constructor() {
     }
 
     isWeekend(date: NgbDateStruct) {
