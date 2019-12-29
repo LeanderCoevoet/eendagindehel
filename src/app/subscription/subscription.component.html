@@ -3,59 +3,104 @@
 
     </div>
     <div class="main">
-
-
-        <form id="inschrijving" method="post" action="https://formspree.io/rony.coevoet@scarlet.be">
-
-            <p>
-                <label for="aantal">Aantal personen:</label>
-                <select id="aantal">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
-
-            </p>
-
-            <div id="aanvullen">
-                <fieldset id="invul">
-                    <legend>Persoon X:</legend>
-                    <p>
-                        <label for="naam">Naam:</label>
-                        <input type="text" id="voornaam" name="voornaam" placeholder="Voornaam" required />
-                        <input type="text" id="naam" name="naam" placeholder="Achternaam" required />
-                        <span class="fout" id="naamFout">&nbsp;</span>
-                    </p>
-
-                    <p>
-                        <label for="email">E-mail:</label>
-                        <input class="input" type="text" id="email" name="mail" required size="45" placeholder="Uw email adres" />
-                        <span class="fout" id="emailFout">&nbsp;</span>
-                    </p>
-
-                    <p>
-                        <label for="gsm">Gsm: &nbsp;</label>
-                        <input class="input" type="text" id="gsm" name="gsm" required size="14" placeholder="xxxx xx xx xx" />
-                        <span class="fout" id="gsmFout">&nbsp;</span>
-                    </p>
-
-                    <p>
-                        <label for="straat">Adres:</label>
-                        <input class="input" type="text" id="straat" name="adres" required size="36" placeholder="straat" />
-                        <input class="input" type="text" id="nummer" name="nummer" required size="4" placeholder="nr" />
-                        <span class="fout" id="adres1Fout">&nbsp;</span>
-                    </p>
-                    <p>
-                        <input class="input" type="text" id="postcode" name="postcode" required size="4" placeholder="postcode" />
-                        <input class="input" type="text" id="stad" name="stad" required size="36" placeholder="stad" />
-                        <span class="fout" id="adres2Fout">&nbsp;</span>
-                    </p>
-                </fieldset>
+        <h1>Inschrijving</h1>
+        <form [formGroup]="subscribeForm" (ngSubmit)="save()">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="form-group">
+                        <label>Voornaam:*</label>
+                        <input type="text" class="form-control" formControlName="firstName">
+                        <p *ngIf="!subscribeForm.get('firstName').valid && subscribeForm.get('firstName').touched" 
+                            class="alert alert-danger"><sup>*</sup>Vul uw voornaam in aub</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="form-group">
+                        <label>Achternaam:*</label>
+                        <input type="text" class="form-control" formControlName="lastName">
+                        <p *ngIf="!subscribeForm.get('lastName').valid && subscribeForm.get('lastName').touched"
+                            class="alert alert-danger"><sup>*</sup>Vul uw achternaam in aub
+                        </p>
+                    </div>
+                </div>
             </div>
 
-            <input type="submit" id="verzend" name="submit" value="Verzenden" />
-            <input type="hidden" name="_next" value="http://eendagindehel.be/#/thanks" />
-            <input type="hidden" name="_subject" value="Parijs-Roubaix inschrijving" />
+            <div class="row">
+                <div class="col-lg-8 col-md-6 col-sm-12">
+                    <div class="form-group">
+                        <label>email:*</label>
+                        <input type="text" class="form-control" formControlName="email">
+                        <p *ngIf="subscribeForm.get('email').hasError('required') && subscribeForm.get('email').touched"
+                            class="alert alert-danger"><sup>*</sup>Vul uw email in aub
+                        </p>
+                        <p *ngIf="subscribeForm.get('email').hasError('email') && subscribeForm.get('email').touched"
+                            class="alert alert-danger"><sup>*</sup>Vul een geldig email in aub
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="form-group">
+                        <label>gsmnummer:*</label>
+                        <input type="text" class="form-control" formControlName="phoneNumber">
+                        <p *ngIf="subscribeForm.get('phoneNumber').hasError('required') && subscribeForm.get('phoneNumber').touched"
+                            class="alert alert-danger"><sup>*</sup>Vul uw gsmnummer in aub
+                        </p>
+                        <p *ngIf="subscribeForm.get('phoneNumber').hasError('minlength') && subscribeForm.get('phoneNumber').touched"
+                            class="alert alert-danger"><sup>*</sup>Een gsmnummer heeft 10 nummers
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-10 col-md-8 col-sm-12">
+                    <div class="form-group">
+                        <label>Straat:*</label>
+                        <input type="text" class="form-control" formControlName="streetName">
+                        <p *ngIf="!subscribeForm.get('streetName').valid && subscribeForm.get('streetName').touched"
+                            class="alert alert-danger"><sup>*</sup>Vul uw straat in aub
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                    <div class="form-group">
+                        <label>Straatnummer:*</label>
+                        <input type="text" class="form-control" formControlName="streetNumber">
+                        <p *ngIf="!subscribeForm.get('streetNumber').valid && subscribeForm.get('streetNumber').touched"
+                            class="alert alert-danger"><sup>*</sup>Vul uw straatnummer in aub
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                    <div class="form-group">
+                        <label>Postcode:*</label>
+                        <input type="text" class="form-control" formControlName="postalcode">
+                        <p *ngIf="subscribeForm.get('postalcode').hasError('required') && subscribeForm.get('postalcode').touched"
+                            class="alert alert-danger"><sup>*</sup>Vul uw postcode in aub
+                        </p>
+                        <p *ngIf="subscribeForm.get('postalcode').hasError('pattern') && subscribeForm.get('postalcode').touched"
+                        class="alert alert-danger"><sup>*</sup>Een postcode is 4 tekens
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-10 col-md-8 col-sm-12">
+                    <div class="form-group">
+                        <label>Gemeente:*</label>
+                        <input type="text" class="form-control" formControlName="city">
+                        <p *ngIf="!subscribeForm.get('city').valid && subscribeForm.get('city').touched"
+                            class="alert alert-danger"><sup>*</sup>Vul uw gemeente in aub
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <p class="consent">
+                Door op Inschrijven te klikken, ga je akkoord dat er foto's tijdens het event mogen genomen worden.
+                Deze foto's mogen tevens ook gebruikt worden door de organisatie op de site (www.eendagindehel.be) en de uitnodigingsmail.
+                Dat de beelden en gegevens in bovenstaand formulier die het onderwerp van deze toestemming bevatten, door de organisatie worden bewaard in overeenstemming met en in overeenstemming met de GDPR-richtlijnen (de algemene verordening inzake gegevensbescherming).
+            </p>
+               <button type="submit" class="btn btn-primary btn-lg btn-block">Inschrijven</button>
         </form>
     </div>
+</div>
