@@ -34,9 +34,8 @@ export class SubscriptionComponent implements OnInit {
     }
     save() {
         if (this.subscribeForm.valid){
-            alert(this.subscribeForm.value);
-          /*  this.firebaseService.createSubscribe(this.subscribeForm.value);
-            this.router.navigate(['thanks'])*/
+            this.firebaseService.createSubscribe(this.subscribeForm.value);
+            this.router.navigate(['thanks']);
         } else {
             this.subscribeForm.markAllAsTouched()
         }

@@ -28,16 +28,6 @@ export class FirebaseService {
         }).catch( error => {
             this.errorMgmt(error);
         });
-       /* return this.db..collection('subscribe').add({
-          firstName: value.firstName,
-          lastName: value.lastName,
-          email: value.email,
-          phoneNumber: value.phoneNumber,
-          streetName: value.streetName,
-          streetNumber: value.streetNumber,
-          postalcode: value.postalcode,
-          city: value.city
-        });*/
     }
     // Error management
   private errorMgmt(error) {

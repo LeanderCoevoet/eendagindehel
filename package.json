@@ -1,5 +1,5 @@
 {
-  "name": "pk2-angular",
+  "name": "een-dag-in-de-hel",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
@@ -24,6 +24,7 @@
     "@angular/platform-server": "^8.2.14",
     "@angular/router": "^8.2.14",
     "@ng-bootstrap/ng-bootstrap": "^5.1.4",
+    "angular2-image-gallery": "^8.0.0",
     "bootstrap": "4.4.1",
     "core-js": "^3.6.0",
     "firebase": "^7.6.1",
@@ -57,6 +58,8 @@
     "protractor": "~5.4.2",
     "ts-node": "~8.5.4",
     "tslint": "~5.20.1",
-    "typescript": "~3.4.5"
+    "typescript": "~3.4.5",
+    "gm": "^1.23.1",
+    "onecolor": "^3.1.0"
   }
 }
